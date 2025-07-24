@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+}
+
+h1{
+  margin-top: 0;
+}
+
+.top-container{
+background-color:#e7e7e7 ;
+
+}
+ 
+
+.ric{
+background-color: lightblue;
+height: 200px;
+width: 200px;
+}
+
+
+.ken{
+background-color: lightpink;
+height: 200px;
+width: 200px;
+}
+
+.mik{
+  height: 80px;
+}
