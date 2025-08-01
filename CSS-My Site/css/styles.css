@@ -1,30 +1,149 @@
 body{
-  margin: 0;
-}
+  color: #40514E;
+  margin: 30px auto 0 auto;
+  text-align: center; 
+  font-family: "Merriweather", serif;
+  background: linear-gradient(to right, #f4f4f4, #e6e3e3, #e0f7fa);
+
+  }
+  
 
 h1{
+  color: #9b9595;
   margin-top: 0;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
 }
 
-.top-container{
-background-color:#e7e7e7 ;
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #9b9595;
+    font-weight: normal;
 
+}
+h3{ 
+    font-family: "Montserrat", sans-serif;
+    color: #11999E;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+border-style:none;
+width: 3.5%;
+border-top-style: dotted;
+border-color: rgb(156, 154, 154);
+border-width: 5px;
+margin: 100px auto;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
 }
  
 
-.ric{
-background-color: lightblue;
-height: 200px;
-width: 200px;
+.top-container{
+background-color:#e7e7e7 ;
+padding-top: 100px;
+position: relative;
+
 }
 
-
-.ken{
-background-color: lightpink;
-height: 200px;
-width: 200px;
+ 
+.Profile-pic{
+  height: 150px;
+  border-radius:50% ;
+  object-fit: cover;
 }
 
-.mik{
+.soccer{
+  background-color: rgb(209, 188, 170);
+  height: 150px;
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+  border-radius:75px;
+}
+
+.coding{
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto ;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.top-cloud{
   height: 80px;
+  position: absolute;
+  right:350px;
+  top: 50px;
 }
+
+.bottom-cloud{
+height: 80px;
+position: absolute;
+left: 150px;
+bottom: 500px;
+}
+
+.bottom-container{
+background-color: #66bfbf;
+padding: 40px 0 20px;
+
+}
+.contact-me{
+margin-bottom: 50px;
+
+} 
+
+.contact-me-button {
+	background-color:#11cdd4;
+	border-radius:8px;
+	border:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: "Montserrat", sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.contact-me-button:hover {
+	background-color:#30e3cb;
+}
+.contact-me-button:active {
+	position:relative;
+	top:1px;
+  background-color: white;
+}
+
+a{
+color: #11999E;
+font-family: "Montserrat", sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+.copyright{
+  color: #eaf6f6;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+

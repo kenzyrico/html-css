@@ -1,0 +1,52 @@
+body{
+  font-family: "Merriweather", serif;
+  background: linear-gradient(to right, #f4f4f4, #b9afaf, #e0f7fa);
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+
+h1{
+  font-family: "Sacramento", cursive;
+  color: hsl(30deg 82% 43%);
+}
+
+h2{
+ color: hsl(150 30% 60%);
+ font-family: "Montserrat", sans-serif;
+ margin: 100px auto auto;
+}
+
+
+
+h3{
+color: aqua;
+font-family: "Montserrat", sans-serif;
+line-height: 20px;
+margin: 100px auto auto;
+
+}
+
+hr{
+border-style: dotted;
+border-top: none;
+width: 4%;
+border-width: 10px;
+border-color: #f3dcdc;
+margin: 100px auto auto;
+
+}
+
+.profile-img{
+  border-radius:150px ;
+}
+  
+
+ul,li{
+  list-style: none;
+  border-collapse: collapse;
+}
+
+
+
+
+
